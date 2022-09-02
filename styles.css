@@ -1,5 +1,10 @@
+@font-face {
+    font-family:Poppins;
+    src: url(Poppins-Regular.ttf);
+}
+
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -19,7 +24,8 @@ body {
     border-style:solid;
     margin: 0px;
     padding: 0px;
-    display: inline-grid;    
+    display: inline-grid;  
+    
 }
 
 .display {
